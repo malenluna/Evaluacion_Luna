@@ -7,7 +7,7 @@
 }
 
 :root {
-    --primario: #0300cc;
+    --primario: #8482ff;
     --oscuro: #222222;
     --blanco: #ffffff;
     --gris: #777777;
@@ -46,4 +46,39 @@ header {
     height: auto;
     border-radius: var(--borde);
     display: block;
+}
+
+.productos {
+    padding: 20px;
+    text-align: center;
+
+    h2 {
+    margin-bottom: 20px;
+    }
+}
+
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.tarjeta {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 200px;
+
+    img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--borde);
+    }
+}
+
+.btn-ver {
+    background-color: var(--primario);
+    color: var(--blanco);
+    Padding: 10px 20px;
+    
 }
