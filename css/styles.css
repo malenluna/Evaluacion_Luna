@@ -100,7 +100,6 @@ header {
 
 .contenedor-tarjetas {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
@@ -155,4 +154,21 @@ header {
     gap: 15px;
 }
 
+.testimonio {
+    background-color: var(--blanco);
+    border: 1px solid #ddd;
+    border-radius: var(--borde);
+    padding: 15px;
+    width: 260px;
+    text-align: left;
+}
 
+.testimonio h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.testimonio .comentario {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
